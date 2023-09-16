@@ -5,6 +5,9 @@ function Layout() {
   return (
       <>
         <NavBar />
+        <div className="placemat">
+        
+        </div>
         <Outlet />
       </>
   )

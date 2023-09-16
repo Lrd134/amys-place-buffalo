@@ -1,3 +1,16 @@
+/* @media only screen and (max-height: 1080px) { 
+  body {
+    background: url("../public/placemat_1080.png") transparent repeat 0 0;
+  }
+}
+@media only screen and (max-height: 1440px) { 
+  body {
+    background: url("../public/placemat_1440.png") transparent repeat 0 0;
+  }
+} */
+body {
+  background: url("../public/placemat_huge_bottom.png") transparent repeat 0 0;
+}
 div.navbar {
   background-color:rgb(36, 36, 36);
   width: 50%;
