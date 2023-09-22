@@ -1,24 +1,24 @@
 import React from 'react';
 
 function NavBar() {
-  const handleMouseEnter = event => {
-    if (event.target.nodeName === "LI") {
-      event.target.children[0].children[0].className = ''
-    } else
-      event.target.children[0].className = '';
+  // const handleMouseEnter = event => {
+  //   if (event.target.nodeName === "LI") {
+  //     event.target.children[0].children[0].className = ''
+  //   } else
+  //     event.target.children[0].className = '';
 
-  }
-  const handleMouseLeave = event => {
-    if (event.target.nodeName === "LI") {
-      event.target.children[0].children[0].className = 'hidden'
-    } else
-      event.target.children[0].className = 'hidden';
+  // }
+  // const handleMouseLeave = event => {
+  //   if (event.target.nodeName === "LI") {
+  //     event.target.children[0].children[0].className = 'hidden'
+  //   } else
+  //     event.target.children[0].className = 'hidden';
 
-  }
+  // }
   return (
     <div className="navbar">
       <ul className="navbar">
-        <li className="navbar" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
+        <li className="navbar" >
           <a
             className="navbar"
             href="/"
@@ -27,8 +27,29 @@ function NavBar() {
           <img className="hidden" src="cup_wh.png" alt="if-link-is-hovered-this-cup-shows"/>
             Home
           </a>
+        </li>        
+        <li className="navbar">
+          <a
+            className="navbar"
+            target="new"
+            href="https://order.toasttab.com/online/amys-place?rwg_token=AOZt1jX4FQ3I2wUIAHo7KgawgPiTF83KXlG_aer0gu6zxe5AKSxBbbFkDyy9ZBHkjkKDwfaVScP6HDV3T9YZiLzqNmFTlnvzhg%3D%3D"
+            alt="Home"
+          >
+          <img className="hidden" src="cup_wh.png" alt="if-link-is-hovered-this-cup-shows"/>
+            Order Online
+          </a>
+        </li>        
+        <li className="navbar">
+          <a
+            className="navbar"
+            href="/comingsoon"
+            alt="Home"
+          >
+          <img className="hidden" src="cup_wh.png" alt="if-link-is-hovered-this-cup-shows"/>
+            Coming Soon
+          </a>
         </li>
-        <li className="navbar" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
+       {/* <li className="navbar" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
           <a
             className="navbar"
             href="/menu"
@@ -67,7 +88,7 @@ function NavBar() {
           <img className="hidden" src="cup_wh.png" alt="if-link-is-hovered-this-cup-shows"/>
             Feedback
           </a>
-        </li>
+        </li>*/}
     </ul>
     </div>
   )
