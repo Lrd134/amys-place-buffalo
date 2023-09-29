@@ -12,9 +12,26 @@ body {
   background: url("../public/placemat_huge_bottom.png") transparent repeat 0 0;
 }
 
-@media only screen and (max-width: 1299px) {
+@media only screen and (max-width: 1100px) {
   a:visited, a:hover, a:link {
     color: rgb(75, 75, 75);
+  }
+  img.xTwitter, img.facebook {
+    height: 10vh;
+    width: 10vh;
+    padding-left: 25%;
+  }
+  img.instagram {
+    height: 10vh;
+    width: 17vw;
+    padding-left: 25%;
+  }
+  div.instagram, div.xTwitter, div.facebook {
+    width: 33vw;
+    display: inline-block;
+  }
+  h1.about {
+    margin-top: 3vh;
   }
   .events, .about, .location {
     text-align: center;
@@ -24,54 +41,57 @@ body {
   }
   ul.navbar {
     list-style-type: none;
-  }
-  .instagram {
-    height: 30px;
-    width: 30px;
+    text-align: center;
     position: relative;
-    left: 30px;
-  }
-  div.socials {
-    position: absolute;
-    top: 10vh;
-    right: 10px;
-  }
-  .toast {
-    height: 30px;
-    width: 90px;
-  }
-}
-@media only screen and (min-width: 1300px) {
-
-  .instagram {
-    height: 100px;
-    width: 100px;
-    position: relative;
-    left: 100px;
-  }
-  div.socials {
-    position: absolute;
-    top: 5vh;
-    right: 30px;
-  }
-  h1.doordash {
-    font-size: 72pt;
-    position: absolute;
-    top: 10vh;
-    width: 100%;
-  }
-  img.doordash {
-    height: auto;
-    width: 90vw;
-    position: absolute;
-    top: 50vh;
     right: 5vw;
   }
-  img.toast {
-    height: 100px;
-    width: 300px;
-    margin-top: 50px;
+  div.toast, div.doordash {
+    width: 50vw;
+    display: inline-block;
+    text-align: center;
   }
+  img.doordash {
+    height: 100%;
+    width: 100%;
+  }
+  img.toast {
+    height: 90%;
+    width: 90%;
+  }
+  iframe.calendar {
+    display: none;
+  }
+  div.events {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+
+  div.instagram, div.xTwitter, div.facebook {
+    height: 25vh;
+    width: 33vw;
+    display: inline-block;
+    position: relative;
+    top: 130vh;
+  }
+  div.toast, div.doordash {
+    display: inline-block;
+    width: 50%;
+    height: 60vh;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    
+  }
+  img.toast, img.doordash {
+    width: 100%;
+    height: 100%;
+  }
+  img.instagram, img.xTwitter, img.facebook {
+    height: 100%;
+    width: 100%;
+  }
+
   .centered-text {
     text-align: center;
   }
@@ -80,7 +100,7 @@ body {
   }
   .events {
     position: absolute;
-    top: 60vh;
+    top: 160vh;
     right: 50vw;
     width: 50%;
   }
@@ -94,12 +114,12 @@ body {
   }
   div.location {
     position: absolute;
-    top: 60vh;
+    top: 160vh;
     right: 5vw;
   }
   div.about {
     position: absolute;
-    top: 10vh;
+    top: 5vh;
     width: 50%;
     right: 25vw;
   }

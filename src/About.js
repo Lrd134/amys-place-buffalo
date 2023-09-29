@@ -8,10 +8,70 @@ function About() {
     <>
       
       {/*<div className="doordash"> Doordash coming 09/28/2023 </div>*/}
-      <div className="socials"> <a  alt="follow us on instragram @Amys_place_buffalo"  href="https://www.instagram.com/amys_place_buffalo/"><img alt="follow us on instragram @Amys_place_buffalo" className="instagram" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"/> </a>
-      <br></br><a className="toast x-large-font" alt="order here" href="https://order.toasttab.com/online/amys-place?rwg_token=AOZt1jX4FQ3I2wUIAHo7KgawgPiTF83KXlG_aer0gu6zxe5AKSxBbbFkDyy9ZBHkjkKDwfaVScP6HDV3T9YZiLzqNmFTlnvzhg%3D%3D">
-        <img className="toast" alt="order here" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Toast_logo.svg/2560px-Toast_logo.svg.png"/><br></br> Order Here!</a>
+      <div className="socials">
+        <div className="instagram">
+          <a  
+            alt="follow us on instragram @Amys_place_buffalo"
+            href="https://www.instagram.com/amys_place_buffalo/">
+              <img 
+                alt="Follow Us on Instragram @Amys_place_buffalo"
+                className="instagram" 
+                src="/instagramLogo.png"
+              /> 
+          </a>
         </div>
+        <div className="xTwitter">
+          <a  
+            alt="follow us on X (formely twitter) "
+            href="https://twitter.com/AmysPlaceBuf">
+              <img 
+                alt="Follow Us on X (formely Twitter) "
+                className="xTwitter" 
+                src="/xLogo.png"
+              /> 
+          </a>
+        </div>
+        <div className="facebook">
+          <a  
+            alt="Like Us on Facebook "
+            href="https://www.facebook.com/pages/Amys-Place/380019585421287">
+              <img 
+                alt="Like Us on Facebook "
+                className="facebook" 
+                src="/facebookLogo.png"
+              /> 
+          </a>
+        </div>  
+    </div>
+    <div className="order">
+      <div className="toast">
+          <a 
+            className="toast x-large-font" 
+            alt="order here" 
+            href="https://order.toasttab.com/online/amys-place?rwg_token=AOZt1jX4FQ3I2wUIAHo7KgawgPiTF83KXlG_aer0gu6zxe5AKSxBbbFkDyy9ZBHkjkKDwfaVScP6HDV3T9YZiLzqNmFTlnvzhg%3D%3D">
+              <img 
+                className="toast" 
+                alt="order here" 
+                src="/toastMobile.png"/>
+              <br></br>
+                Order Online
+          </a>
+
+      </div>
+      <div className="doordash">
+          <a 
+            className=" x-large-font" 
+            alt="order delivery" 
+            href="https://order.toasttab.com/online/amys-place?rwg_token=AOZt1jX4FQ3I2wUIAHo7KgawgPiTF83KXlG_aer0gu6zxe5AKSxBbbFkDyy9ZBHkjkKDwfaVScP6HDV3T9YZiLzqNmFTlnvzhg%3D%3D">
+              <img 
+                className="doordash" 
+                alt="DoorDash - Order Delivery!" 
+                src="/doorDashMobile.png"/>
+              <br></br>
+                Order Delivery
+          </a>
+      </div>
+    </div>
 
       <div className="x-large-font centered-text about">
         <h1 className="about">Amy's Place Buffalo</h1>

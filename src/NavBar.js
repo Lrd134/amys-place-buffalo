@@ -41,12 +41,13 @@ function NavBar() {
         </li>        
         <li className="navbar">
           <a
+            target= "new"
             className="navbar"
-            href="/comingsoon"
+            href="/BOOMCHACKALAKA"/*FILL ME OUT DAWG !@#!@#!@#!@#!@#!@#!@#!@#*/
             alt="Home"
           >
           <img className="hidden" src="cup_wh.png" alt="if-link-is-hovered-this-cup-shows"/>
-            Coming Soon
+            Order Delivery
           </a>
         </li>
        {/* <li className="navbar" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
